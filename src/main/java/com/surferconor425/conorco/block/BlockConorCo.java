@@ -29,7 +29,7 @@ public class BlockConorCo extends Block
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister)
     {
-        blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
+        blockIcon = iconRegister.registerIcon(MainRef.MODID + ":" + (this.getUnlocalizedName().substring(5)));
     }
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
