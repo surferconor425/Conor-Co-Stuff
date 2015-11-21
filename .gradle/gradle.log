@@ -8,9 +8,11 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
-:compileJava UP-TO-DATE
-:processResources
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:processResources UP-TO-DATE
 :classes
 :jar
 :getVersionJson
@@ -20,38 +22,38 @@
 :getAssets
 :makeStart SKIPPED
 :runClient
-[13:52:07] [main/INFO] [GradleStart]: Extra: []
-[13:52:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/surferconor425/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[13:52:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[13:52:07] [main/INFO] [FML]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
-[13:52:07] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_66, running on Mac OS X:x86_64:10.11.1, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
-[13:52:07] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[13:52:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:52:07] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[13:52:07] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[13:52:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:52:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:52:07] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[13:52:08] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[13:52:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:52:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[13:52:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:52:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[13:52:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[13:52:08] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[13:52:08] [main/INFO]: Setting user: Player794
-[13:52:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:52:10] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// Why is it breaking :(
+[14:54:01] [main/INFO] [GradleStart]: Extra: []
+[14:54:01] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/surferconor425/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[14:54:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[14:54:01] [main/INFO] [FML]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
+[14:54:01] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_66, running on Mac OS X:x86_64:10.11.1, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+[14:54:01] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:54:01] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[14:54:01] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:54:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:54:01] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[14:54:01] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[14:54:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[14:54:02] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:54:02] [main/INFO]: Setting user: Player383
+[14:54:03] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:54:03] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// I blame Dinnerbone.
 
-Time: 21/11/15 13:52
+Time: 21/11/15 14:54
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -66,113 +68,128 @@ Details:
 	Operating System: Mac OS X (x86_64) version 10.11.1
 	Java Version: 1.8.0_66, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 252986696 bytes (241 MB) / 358612992 bytes (342 MB) up to 1908932608 bytes (1820 MB)
+	Memory: 255036864 bytes (243 MB) / 353370112 bytes (337 MB) up to 1908932608 bytes (1820 MB)
 	JVM Flags: 0 total; 
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.10.18' Renderer: 'Intel Iris Pro OpenGL Engine'
-[13:52:10] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
-[13:52:10] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1448 Initialized
-[13:52:10] [Client thread/INFO] [FML]: Replaced 183 ore recipies
-[13:52:10] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
-[13:52:10] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
-[13:52:10] [Client thread/INFO] [FML]: Searching /Users/surferconor425/Documents/Conor-Co-Stuff/eclipse/mods for mods
-[13:52:12] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[13:52:12] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, conorco] at CLIENT
-[13:52:12] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, conorco] at SERVER
-[13:52:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Conor Co. Stuff
-[13:52:13] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[13:52:13] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
-[13:52:13] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[13:52:13] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[13:52:13] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[13:52:13] [Client thread/INFO] [Conor Co. Stuff]: Pre Initialization Complete
-[13:52:13] [Client thread/INFO] [FML]: Applying holder lookups
-[13:52:13] [Client thread/INFO] [FML]: Holder lookups applied
-[13:52:13] [Client thread/INFO] [FML]: Injecting itemstacks
-[13:52:13] [Client thread/INFO] [FML]: Itemstack injection complete
-[13:52:13] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:52:13] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[13:52:13] [Thread-7/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[13:52:13] [Thread-7/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-2015-11-21 13:52:13.401 java[725:414470] 13:52:13.401 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
-[13:52:13] [Thread-7/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[13:52:13] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:52:13] [Sound Library Loader/INFO]: Sound engine started
-[13:52:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:52:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:52:14] [Client thread/INFO] [Conor Co. Stuff]: Initialization Complete
-[13:52:14] [Client thread/INFO] [FML]: Injecting itemstacks
-[13:52:14] [Client thread/INFO] [FML]: Itemstack injection complete
-[13:52:14] [Client thread/INFO] [Conor Co. Stuff]: Post Initialization Complete
-[13:52:14] [Client thread/INFO] [Conor Co. Stuff]: Bet 10p there isnt a button named Singleplayer...for a good reason.
-[13:52:14] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[13:52:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Conor Co. Stuff
-[13:52:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:52:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:52:14] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:52:14] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[13:52:14] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[13:52:14] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:52:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:52:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[13:52:14] [Thread-9/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[13:52:14] [Thread-9/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:52:14] [Thread-9/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[13:52:15] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:52:15] [Sound Library Loader/INFO]: Sound engine started
-[13:52:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[13:52:18] [Server thread/INFO]: Generating keypair
-[13:52:18] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
-[13:52:18] [Server thread/INFO] [FML]: Applying holder lookups
-[13:52:18] [Server thread/INFO] [FML]: Holder lookups applied
-[13:52:18] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@1a7fe127)
-[13:52:18] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@1a7fe127)
-[13:52:18] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@1a7fe127)
-[13:52:18] [Server thread/INFO]: Preparing start region for level 0
-[13:52:19] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:52:19] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
-[13:52:19] [Netty IO #1/INFO] [FML]: Client protocol version 2
-[13:52:19] [Netty IO #1/INFO] [FML]: Client attempting to join with 4 mods : FML@7.10.99.99,conorco@1.7.10-1.0.0,Forge@10.13.4.1448,mcp@9.05
-[13:52:19] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
-[13:52:19] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
-[13:52:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:52:19] [Server thread/INFO]: Player794[local:E:902d4249] logged in with entity id 306 at (-385.2543279419665, 74.0, 558.4168969126096)
-[13:52:19] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
-[13:52:19] [Server thread/INFO]: Player794 joined the game
-[13:52:25] [Server thread/INFO]: Saving and pausing game...
-[13:52:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:52:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:52:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:52:29] [Server thread/INFO]: Saving and pausing game...
-[13:52:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:52:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:52:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:53:47] [Server thread/INFO]: Player794 has just earned the achievement [Taking Inventory]
-[13:53:47] [Client thread/INFO]: [CHAT] Player794 has just earned the achievement [Taking Inventory]
-[13:53:53] [Server thread/INFO]: Saving and pausing game...
-[13:53:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:53:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:53:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:54:02] [Server thread/INFO]: Stopping server
-[13:54:02] [Server thread/INFO]: Saving players
-[13:54:02] [Server thread/INFO]: Saving worlds
-[13:54:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:54:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:54:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:54:02] [Server thread/INFO] [FML]: Unloading dimension 0
-[13:54:02] [Server thread/INFO] [FML]: Unloading dimension -1
-[13:54:02] [Server thread/INFO] [FML]: Unloading dimension 1
-[13:54:02] [Server thread/INFO] [FML]: Applying holder lookups
-[13:54:02] [Server thread/INFO] [FML]: Holder lookups applied
-[13:54:03] [Client thread/INFO]: Stopping!
-[13:54:03] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:54:03] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-AL lib: (WW) FreeDevice: (0x7fde93418a00) Deleting 6 Buffer(s)
-[13:54:03] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[13:54:03] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:03] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[14:54:03] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1448 Initialized
+[14:54:03] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[14:54:03] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[14:54:03] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[14:54:03] [Client thread/INFO] [FML]: Searching /Users/surferconor425/Documents/Conor-Co-Stuff/eclipse/mods for mods
+[14:54:05] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[14:54:06] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, conorco] at CLIENT
+[14:54:06] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, conorco] at SERVER
+[14:54:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Conor Co. Stuff
+[14:54:06] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:54:06] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[14:54:06] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:54:06] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:54:06] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:54:06] [Client thread/INFO] [Conor Co. Stuff]: Pre Initialization Complete
+[14:54:06] [Client thread/INFO] [FML]: Applying holder lookups
+[14:54:06] [Client thread/INFO] [FML]: Holder lookups applied
+[14:54:06] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:54:06] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:54:06] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:06] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[14:54:06] [Thread-7/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[14:54:06] [Thread-7/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2015-11-21 14:54:06.600 java[1181:831587] 14:54:06.600 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+[14:54:06] [Thread-7/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[14:54:06] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:06] [Sound Library Loader/INFO]: Sound engine started
+[14:54:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:54:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:54:07] [Client thread/INFO] [Conor Co. Stuff]: Initialization Complete
+[14:54:07] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:54:07] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:54:07] [Client thread/INFO] [Conor Co. Stuff]: Post Initialization Complete
+[14:54:07] [Client thread/INFO] [Conor Co. Stuff]: Bet 10p there isnt a button named Singleplayer...for a good reason.
+[14:54:07] [Client thread/INFO] [Conor Co. Stuff]: If their actually is a button called Singleplayer you aint getting 10p lol.
+[14:54:07] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[14:54:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Conor Co. Stuff
+[14:54:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:54:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:54:07] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:07] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[14:54:07] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[14:54:07] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:07] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:07] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[14:54:08] [Thread-9/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[14:54:08] [Thread-9/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:54:08] [Thread-9/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[14:54:08] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:08] [Sound Library Loader/INFO]: Sound engine started
+[14:54:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:54:11] [Server thread/INFO]: Generating keypair
+[14:54:12] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[14:54:12] [Server thread/INFO] [FML]: Injecting new block and item data into this server instance.
+[14:54:12] [Server thread/INFO] [FML]: Injected new block/item conorco:blockColourfulBlockHL: 178 (init) -> 181 (map).
+[14:54:12] [Server thread/INFO] [FML]: Injected new block/item conorco:blockColourfulBlockHL: 178 (init) -> 181 (map).
+[14:54:12] [Server thread/INFO] [FML]: Applying holder lookups
+[14:54:12] [Server thread/INFO] [FML]: Holder lookups applied
+[14:54:12] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@87a8cca)
+[14:54:12] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@87a8cca)
+[14:54:12] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@87a8cca)
+[14:54:12] [Server thread/INFO]: Preparing start region for level 0
+[14:54:13] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:54:13] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
+[14:54:13] [Netty IO #1/INFO] [FML]: Client protocol version 2
+[14:54:13] [Netty IO #1/INFO] [FML]: Client attempting to join with 4 mods : FML@7.10.99.99,conorco@1.7.10-1.0.0,Forge@10.13.4.1448,mcp@9.05
+[14:54:13] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[14:54:13] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[14:54:13] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:54:13] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[14:54:13] [Server thread/INFO]: Player383[local:E:e5ce9ab3] logged in with entity id 120 at (-385.48194962395075, 78.74846534701223, 580.2719531103656)
+[14:54:13] [Server thread/INFO]: Player383 joined the game
+[14:54:14] [Server thread/INFO]: Player383 has just earned the achievement [Taking Inventory]
+[14:54:14] [Client thread/INFO]: [CHAT] Player383 has just earned the achievement [Taking Inventory]
+[14:54:46] [Server thread/INFO]: Saving and pausing game...
+[14:54:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:54:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:54:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:54:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Conor Co. Stuff
+[14:54:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:54:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:54:51] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:51] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+AL lib: (WW) FreeDevice: (0x7f82e5727c00) Deleting 3 Buffer(s)
+[14:54:52] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[14:54:52] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:52] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:52] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[14:54:52] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[14:54:52] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2015-11-21 14:54:52.304 java[1181:838538] 14:54:52.304 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+[14:54:52] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[14:54:52] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:54:52] [Sound Library Loader/INFO]: Sound engine started
+[14:56:03] [Server thread/INFO]: Saving and pausing game...
+[14:56:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:56:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:56:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:56:04] [Server thread/INFO]: Stopping server
+[14:56:04] [Server thread/INFO]: Saving players
+[14:56:04] [Server thread/INFO]: Saving worlds
+[14:56:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:56:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:56:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:56:04] [Server thread/INFO] [FML]: Unloading dimension 0
+[14:56:04] [Server thread/INFO] [FML]: Unloading dimension -1
+[14:56:04] [Server thread/INFO] [FML]: Unloading dimension 1
+[14:56:04] [Server thread/INFO] [FML]: Applying holder lookups
+[14:56:04] [Server thread/INFO] [FML]: Holder lookups applied
+[14:56:05] [Client thread/INFO]: Stopping!
+[14:56:05] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[14:56:05] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[14:56:05] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[14:56:05] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
 
 BUILD SUCCESSFUL
 
-Total time: 2 mins 5.414 secs
+Total time: 2 mins 14.509 secs

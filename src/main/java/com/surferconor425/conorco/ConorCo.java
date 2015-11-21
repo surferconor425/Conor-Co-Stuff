@@ -37,5 +37,6 @@ public class ConorCo
     {
         LogHelper.info("Post Initialization Complete");
         LogHelper.info("Bet 10p there isnt a button named Singleplayer...for a good reason.");
+        LogHelper.info("If their actually is a button called Singleplayer you aint getting 10p lol.");
     }
 }

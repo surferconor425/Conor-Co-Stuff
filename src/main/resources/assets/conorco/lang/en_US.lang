@@ -1,6 +1,13 @@
 # Blocks
 
 tile.conorco:blockConstructionBlue.name=Conor Co. Construction Blue
+tile.conorco:blockRandDBlue.name=Conor Co. R&D Blue
+tile.conorco:blockTarmacGrey.name=Conor Co. Tarmac Grey
+tile.conorco:blockMiltechRed.name=Conor Co. Miltech Red
+tile.conorco:blockIndustrialOrange.name=Conor Co. Industrial Orange
+tile.conorco:blockCCBlack.name=Conor Co. Black
+tile.conorco:blockColourfulBlock.name=Conor Co. Colorful Block
+tile.conorco:blockColourfulBlockHL.name=Conor Co. Colorful Block (Horizontal)
 
 # Random Stuff
-itemGroup.ConorCo=Conor Co. Stuff
+itemGroup.conorco=Conor Co. Stuff
