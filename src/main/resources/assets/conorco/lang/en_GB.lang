@@ -6,8 +6,7 @@ tile.conorco:blockTarmacGrey.name=Conor Co. Tarmac Grey
 tile.conorco:blockMiltechRed.name=Conor Co. Miltech Red
 tile.conorco:blockIndustrialOrange.name=Conor Co. Industrial Orange
 tile.conorco:blockCCBlack.name=Conor Co. Black
-tile.conorco:blockColourfulBlock.name=Conor Co. Colourful Block
-tile.conorco:blockColourfulBlockHL.name=Conor Co. Colourful Block (Horizontal)
+tile.conorco:blockFuelexPurple.name=Fuelex Purple
 
 # Random Stuff
 itemGroup.conorco=Conor Co. Stuff

@@ -1,11 +1,11 @@
 [
 {
-  "modid": "ConorCo",
+  "modid": "conorco",
   "name": "Conor Co. Stuff",
-  "description": "Random crap for Conor Co.",
+  "description": "Random crap for Conor Co. on the Silvania: Ultimatum server.",
   "version": "${mod_version}",
   "mcversion": "${minecraft_version}",
-  "url": "",
+  "url": "http://conorserv.net",
   "updateUrl": "",
   "authorList": [
     "surferconor425"

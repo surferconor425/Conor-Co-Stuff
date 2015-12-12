@@ -33,10 +33,10 @@ apply plugin: 'curseforge'
 
 version = config.mod_version
 group= "com.surferconor425.ConorCo" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "ConorCo"
+archivesBaseName = "ConorCo-Stuff"
 
 minecraft {
-    version = "1.7.10-10.13.4.1448-1.7.10"
+    version = "1.7.10-10.13.4.1492-1.7.10"
     runDir = "eclipse"
     replaceIn "reference/MainRef.java"
     replace "@MOD_VERSION@", "${project.minecraft.version}-${config.mod_version}.${System.getenv("BUILD_NUMBER") ?: 0}"

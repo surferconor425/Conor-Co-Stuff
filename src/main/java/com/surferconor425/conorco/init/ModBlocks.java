@@ -11,8 +11,7 @@ public class ModBlocks {
     public static final BlockConorCo BlockMiltechRed = new BlockMiltechRed();
     public static final BlockConorCo BlockIndustrialOrange = new BlockIndustrialOrange();
     public static final BlockConorCo BlockCCBlack = new BlockCCBlack();
-    public static final BlockConorCo BlockColourfulBlock = new BlockColourfulBlock();
-    public static final BlockConorCo BlockColourfulBlockHL = new BlockColourfulBlockHL();
+    public static final BlockConorCo BlockFuelexPurple = new BlockFuelexPurple();
 
     public static void init()
     {
@@ -22,8 +21,6 @@ public class ModBlocks {
         GameRegistry.registerBlock(BlockMiltechRed, BlockRef.Block4);
         GameRegistry.registerBlock(BlockIndustrialOrange, BlockRef.Block5);
         GameRegistry.registerBlock(BlockCCBlack, BlockRef.Block6);
-        GameRegistry.registerBlock(BlockColourfulBlock, BlockRef.BlockX);
-        GameRegistry.registerBlock(BlockColourfulBlockHL, BlockRef.BlockH);
-
+        GameRegistry.registerBlock(BlockFuelexPurple, BlockRef.Block7);
     }
 }
