@@ -12,6 +12,7 @@ public class ModBlocks {
     public static final BlockConorCo BlockIndustrialOrange = new BlockIndustrialOrange();
     public static final BlockConorCo BlockCCBlack = new BlockCCBlack();
     public static final BlockConorCo BlockFuelexPurple = new BlockFuelexPurple();
+    public static final BlockConorCo BlockSpaceDarkPurple = new BlockSpaceDarkPurple();
 
     public static void init()
     {
@@ -22,5 +23,6 @@ public class ModBlocks {
         GameRegistry.registerBlock(BlockIndustrialOrange, BlockRef.Block5);
         GameRegistry.registerBlock(BlockCCBlack, BlockRef.Block6);
         GameRegistry.registerBlock(BlockFuelexPurple, BlockRef.Block7);
+        GameRegistry.registerBlock(BlockSpaceDarkPurple, BlockRef.Block8);
     }
 }

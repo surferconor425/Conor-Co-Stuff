@@ -39,9 +39,9 @@ minecraft {
     version = "1.7.10-10.13.4.1492-1.7.10"
     runDir = "eclipse"
     replaceIn "reference/MainRef.java"
-    replace "@MOD_VERSION@", "${project.minecraft.version}-${config.mod_version}.${System.getenv("BUILD_NUMBER") ?: 0}"
+    replace "@MOD_VERSION@", "1.1.1"
 }
-version = "${config.minecraft_version}-${config.mod_version}.${System.getenv("BUILD_NUMBER") ?: 0}"
+version = "1.7.10-1.1.1"
 
 curse {
     projectId = '230425'

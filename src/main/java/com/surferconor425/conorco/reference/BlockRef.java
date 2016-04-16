@@ -11,4 +11,5 @@ public class BlockRef
     public static final String Block5 = "blockIndustrialOrange";
     public static final String Block6 = "blockCCBlack";
     public static final String Block7 = "blockFuelexPurple";
+    public static final String Block8 = "blockSpaceDarkPurple";
 }
