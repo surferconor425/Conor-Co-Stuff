@@ -6,8 +6,8 @@ jdk:
 before_install:
  - chmod +x gradlew
 
-install: ./gradlew setupCIWorkspace -S
-script: ./gradlew build -S
+install: ./gradlew setupCIWorkspace
+script: ./gradlew build
 
 env:
   global:
@@ -23,3 +23,4 @@ notifications:
       - "Change view: %{compare_url}"
       - "Build details: %{build_url}"
       - "Commit message: %{commit_message}"
+      - "lol it worked, gg."
