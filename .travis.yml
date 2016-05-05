@@ -26,4 +26,3 @@ notifications:
       - "Change view: %{compare_url}"
       - "Build details: %{build_url}"
       - "Commit message: %{commit_message}"
-      - "lol it worked, gg."
