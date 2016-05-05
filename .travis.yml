@@ -10,7 +10,7 @@ script: ./gradlew build
 
 cache:
   directories:
-    - $HOME/build/libs
+    - $HOME/build/libs/*.jar
     
 env:
   global:
