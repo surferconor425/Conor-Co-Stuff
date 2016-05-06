@@ -67,7 +67,7 @@ processResources
                 include '*.info'
 
                 // replace version and mcversion
-                expand 'mod_version': project.version, 'minecraft_version': project.config.minecraft_version, 'forge_version': project.config.forge_version
+                expand 'mod_version': project.version, 'minecraft_version': project.minecraft_version, 'forge_version': project.forge_version
 
                 // copy everything else, thats not the mcmod.info
                 from(sourceSets.main.resources.srcDirs) {
