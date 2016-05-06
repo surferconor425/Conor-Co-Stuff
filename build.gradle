@@ -9,9 +9,6 @@ buildscript {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
-        //maven { // the repo from which to get NEI and stuff
-        //    name 'CB Repo'
-        //    url "http://chickenbones.net/maven/"
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
@@ -19,29 +16,21 @@ buildscript {
     }
 }
 
-ext.configFile = file "build.properties"
-
-configFile.withReader {
-    def prop = new Properties()
-    prop.load(it)
-    project.ext.config = new ConfigSlurper().parse prop
-}
-
 apply plugin : 'java'
 apply plugin: 'forge'
 apply plugin: 'curseforge'
 
-version = config.mod_version
+version = mod_version
 group= "com.surferconor425.ConorCo" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ConorCo-Stuff"
 
 minecraft {
-    version = "1.7.10-10.13.4.1492-1.7.10"
+    version = "${minecraft_version}-${forge_version}"
     runDir = "eclipse"
     replaceIn "reference/MainRef.java"
-    replace "@MOD_VERSION@", "1.1.1"
+    replace "@MOD_VERSION@", "${mod_version}"
 }
-version = "1.7.10-1.1.1"
+version = "${project.minecraft.version}-${mod_version}"
 
 curse {
     projectId = '230425'
@@ -78,7 +67,7 @@ processResources
                 include '*.info'
 
                 // replace version and mcversion
-                expand 'mod_version': project.version, 'minecraft_version': project.config.minecraft_version, 'forge_version': project.config.forge_version
+                expand 'mod_version': project.version, 'minecraft_version': project.minecraft_version, 'forge_version': project.forge_version
 
                 // copy everything else, thats not the mcmod.info
                 from(sourceSets.main.resources.srcDirs) {

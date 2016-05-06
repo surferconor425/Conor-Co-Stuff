@@ -2,34 +2,31 @@
 .DS_Store
 
 ## gradle
-/.gradle
-/build
-/gradle
-/gradlew
-/gradlew.bat
-gradle
+.gradle
+build/
 
 ## ForgeGradle
-/run
+run
 
 ## eclipse
-/eclipse
-/.settings
-/.metadata
-/.classpath
-/.project
-/bin
+eclipse
+.settings
+.metadata
+.classpath
+.project
+bin
 
 ## intellij
-/out
-/.idea
-/*.iml
-/*.ipr
-/*.iws
-/atlassian-ide-plugin.xml
+out
+.idea
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
 
 ## Others
-/*.exe.stackdump
-/mcp
-/libs/*
+*.exe.stackdump
+mcp
 gradle.properties
+*.iml
+*.ipr
