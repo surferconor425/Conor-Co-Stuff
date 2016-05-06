@@ -10,7 +10,7 @@ script: ./gradlew build
 
 deploy:
   provider: releases
-  api_key: GITHUB_OAUTH
+  api_key: $GITHUB_OAUTH
   file: "build/libs/*.jar"
   skip_cleanup: true
   on:
