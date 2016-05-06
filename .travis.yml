@@ -8,6 +8,14 @@ before_install:
 install: ./gradlew setupCIWorkspace
 script: ./gradlew build
 
+deploy:
+  provider: releases
+  api_key: GITHUB_OAUTH
+  file: "build/libs/*.jar"
+  skip_cleanup: true
+  on:
+    tags: true
+    
 env:
   global:
     TERM=dumb
