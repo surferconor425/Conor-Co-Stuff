@@ -15,7 +15,7 @@ public class CreativeTabConorCo
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem(){
-            ItemStack iStack = new ItemStack(ModBlocks.BlockConstructionBlue);
+            ItemStack iStack = new ItemStack(ModBlocks.BlockCCBlack);
             return iStack.getItem();
         }
 

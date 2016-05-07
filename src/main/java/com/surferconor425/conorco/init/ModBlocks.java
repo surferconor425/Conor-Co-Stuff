@@ -5,7 +5,7 @@ import com.surferconor425.conorco.reference.BlockRef;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
-    public static final BlockConorCo BlockConstructionBlue = new BlockConstructionBlue();
+    public static final BlockConorCo BlockLarchAirlinesBlue = new BlockLarchAirlinesBlue();
     public static final BlockConorCo BlockRandDBlue = new BlockRandDBlue();
     public static final BlockConorCo BlockTarmacGrey = new BlockTarmacGrey();
     public static final BlockConorCo BlockMiltechRed = new BlockMiltechRed();
@@ -16,7 +16,7 @@ public class ModBlocks {
 
     public static void init()
     {
-        GameRegistry.registerBlock(BlockConstructionBlue, BlockRef.Block1);
+        GameRegistry.registerBlock(BlockLarchAirlinesBlue, BlockRef.Block1);
         GameRegistry.registerBlock(BlockRandDBlue, BlockRef.Block2);
         GameRegistry.registerBlock(BlockTarmacGrey, BlockRef.Block3);
         GameRegistry.registerBlock(BlockMiltechRed, BlockRef.Block4);

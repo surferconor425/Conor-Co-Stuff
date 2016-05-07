@@ -1,6 +1,7 @@
 package com.surferconor425.conorco;
 
 import com.surferconor425.conorco.init.ModBlocks;
+import com.surferconor425.conorco.init.ModItems;
 import com.surferconor425.conorco.proxy.IProxy;
 import com.surferconor425.conorco.reference.MainRef;
 import com.surferconor425.conorco.utility.LogHelper;
@@ -23,19 +24,19 @@ public class ConorCo
     public void preinit(FMLPreInitializationEvent event)
     {
         ModBlocks.init();
-        LogHelper.info("Pre Initialization Complete");
+        LogHelper.info("Blocks loaded");
+        ModItems.init();
+        LogHelper.info("Items loaded");
 
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-        LogHelper.info("Initialization Complete");
     }
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent event)
     {
-        LogHelper.info("Post Initialization Complete");
         LogHelper.info("Bet 10p there isnt a button named Singleplayer...for a good reason.");
         LogHelper.info("If their actually is a button called Singleplayer you aint getting 10p lol.");
     }

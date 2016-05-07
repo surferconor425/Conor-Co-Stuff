@@ -3,9 +3,9 @@ package com.surferconor425.conorco.block;
 import com.surferconor425.conorco.creativetab.CreativeTabConorCo;
 import com.surferconor425.conorco.reference.BlockRef;
 import net.minecraft.block.material.Material;
-public class BlockConstructionBlue extends BlockConorCo
+public class BlockLarchAirlinesBlue extends BlockConorCo
 {
-    public BlockConstructionBlue()
+    public BlockLarchAirlinesBlue()
     {
         super(Material.rock);
         this.setBlockName(BlockRef.Block1);
