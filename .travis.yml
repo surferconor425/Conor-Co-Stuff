@@ -6,7 +6,8 @@ before_install:
  - chmod +x gradlew
 
 install: ./gradlew setupCIWorkspace
-script: ./gradlew build --curseforge
+script: ./gradlew build
+script: ./gradlew curse
 
 deploy:
   provider: releases
