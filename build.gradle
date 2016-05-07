@@ -33,7 +33,7 @@ minecraft {
 version = "${project.minecraft.version}-${mod_version}"
 
 curse {
-    projectId = '230425'
+    projectId = '244041'
     apiKey = project.curseForgeApiKey
     releaseType = 'alpha'
     addGameVersion '1.7.10'
