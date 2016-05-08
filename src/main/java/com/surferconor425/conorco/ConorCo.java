@@ -27,7 +27,7 @@ public class ConorCo
         LogHelper.info("Blocks loaded");
         ModItems.init();
         LogHelper.info("Items loaded");
-
+        LogHelper.info("Illuminati hacks installed and loaded");
     }
 
     @Mod.EventHandler
@@ -37,7 +37,6 @@ public class ConorCo
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent event)
     {
-        LogHelper.info("Bet 10p there isnt a button named Singleplayer...for a good reason.");
-        LogHelper.info("If their actually is a button called Singleplayer you aint getting 10p lol.");
+        LogHelper.info("<--This mods the best");
     }
 }

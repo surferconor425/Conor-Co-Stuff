@@ -16,6 +16,9 @@ public class ModBlocks {
 
     public static void init()
     {
+
+        //Registry
+
         GameRegistry.registerBlock(BlockLarchAirlinesBlue, BlockRef.Block1);
         GameRegistry.registerBlock(BlockRandDBlue, BlockRef.Block2);
         GameRegistry.registerBlock(BlockTarmacGrey, BlockRef.Block3);
