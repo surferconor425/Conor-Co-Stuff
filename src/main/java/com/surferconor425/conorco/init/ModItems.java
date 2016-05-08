@@ -14,6 +14,6 @@ public class ModItems {
     {
         GameRegistry.registerItem(dustPotassiumNitrate, ItemRef.Dusts.dust1);
         OreDictionary.registerOre("dustSaltpeter", dustPotassiumNitrate);
-        ItemHelper.addShapelessOreRecipe(dustPotassiumNitrate, "dustSaltpeter");
+        ItemHelper.addShapelessOreRecipe(ItemHelper.cloneStack(dustPotassiumNitrate, 2), "dustSaltpeter", "dustSaltpeter");
     }
 }
