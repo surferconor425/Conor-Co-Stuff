@@ -15,6 +15,7 @@ public class dustPotassiumNitrate extends ItemConorCo
     {
         this.setUnlocalizedName(ItemRef.Dusts.dust1);
 
+
     }
     public void addInformation(ItemStack item, EntityPlayer player, List list, boolean isInHand) { list.add("KNO3"); }
 }

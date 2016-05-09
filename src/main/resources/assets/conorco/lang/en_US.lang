@@ -13,6 +13,10 @@ tile.conorco:blockSpaceDarkPurple.name=Conor Co. Space Purple
 
 item.conorco:dustPotassiumNitrate.name=Potassium Nitrate
 
+# Ingots
+
+item.conorco:ingotDankium.name=Dankium Ingot
+
 # Random Stuff
 
 itemGroup.conorco=Conor Co. Stuff

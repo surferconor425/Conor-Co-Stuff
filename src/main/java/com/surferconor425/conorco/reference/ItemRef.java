@@ -10,4 +10,7 @@ public class ItemRef
 
     }
 
+    public static final class Ingots {
+        public static final String ingot1 = "ingotDankium";
+    }
 }

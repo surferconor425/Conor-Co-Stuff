@@ -33,6 +33,8 @@ public class ConorCo
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        LogHelper.info("Connecting to <REDACTED> database...");
+        LogHelper.info("Connection successful");
     }
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent event)
