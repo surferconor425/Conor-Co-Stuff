@@ -1,6 +1,5 @@
 package com.surferconor425.conorco.item;
 
-import cofh.lib.util.helpers.ItemHelper;
 import com.surferconor425.conorco.reference.ItemRef;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
