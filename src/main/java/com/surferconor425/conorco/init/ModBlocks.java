@@ -1,6 +1,5 @@
 package com.surferconor425.conorco.init;
 
-import cofh.lib.util.helpers.ItemHelper;
 import com.surferconor425.conorco.block.*;
 import com.surferconor425.conorco.reference.BlockRef;
 import cpw.mods.fml.common.registry.GameRegistry;

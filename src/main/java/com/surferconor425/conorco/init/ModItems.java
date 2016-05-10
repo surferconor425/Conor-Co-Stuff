@@ -1,12 +1,10 @@
 package com.surferconor425.conorco.init;
 
-import cofh.api.modhelpers.ThermalExpansionHelper;
 import cofh.lib.util.helpers.ItemHelper;
 import com.surferconor425.conorco.item.dustPotassiumNitrate;
 import com.surferconor425.conorco.item.ItemConorCo;
 import com.surferconor425.conorco.item.ingotDankium;
 import com.surferconor425.conorco.reference.ItemRef;
-import cpw.mods.fml.common.FMLModContainer;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 
