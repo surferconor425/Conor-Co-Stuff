@@ -16,7 +16,6 @@ public class ingotDankium extends ItemConorCo
     public static ItemStack ingotDankium;
     {
         this.setUnlocalizedName(ItemRef.Ingots.ingot1);
-        ItemHelper.isIngot(ingotDankium);
 
     }
     public void addInformation(ItemStack item, EntityPlayer player, List list, boolean isInHand) { list.add("Useless...for now"); }
