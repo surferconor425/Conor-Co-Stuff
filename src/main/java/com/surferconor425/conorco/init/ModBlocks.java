@@ -17,7 +17,7 @@ public class ModBlocks {
     public static void init()
     {
 
-        //Registry
+        //Registry Block
 
         GameRegistry.registerBlock(BlockLarchAirlinesBlue, BlockRef.Block1);
         GameRegistry.registerBlock(BlockRandDBlue, BlockRef.Block2);
@@ -27,5 +27,6 @@ public class ModBlocks {
         GameRegistry.registerBlock(BlockCCBlack, BlockRef.Block6);
         GameRegistry.registerBlock(BlockFuelexPurple, BlockRef.Block7);
         GameRegistry.registerBlock(BlockSpaceDarkPurple, BlockRef.Block8);
+
     }
 }

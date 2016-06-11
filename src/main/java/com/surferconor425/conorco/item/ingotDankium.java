@@ -1,6 +1,5 @@
 package com.surferconor425.conorco.item;
 
-import cofh.lib.util.helpers.ItemHelper;
 import com.surferconor425.conorco.reference.ItemRef;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -18,5 +17,5 @@ public class ingotDankium extends ItemConorCo
         this.setUnlocalizedName(ItemRef.Ingots.ingot1);
 
     }
-    public void addInformation(ItemStack item, EntityPlayer player, List list, boolean isInHand) { list.add("Useless...for now"); }
+    public void addInformation(ItemStack item, EntityPlayer player, List list, boolean isInHand) { list.add("TiTm - 420 Blaze it"); }
 }

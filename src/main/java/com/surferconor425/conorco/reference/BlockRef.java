@@ -12,4 +12,10 @@ public class BlockRef
     public static final String Block6 = "blockCCBlack";
     public static final String Block7 = "blockFuelexPurple";
     public static final String Block8 = "blockSpaceDarkPurple";
+
+
+    public static final class machines
+    {
+        public static final String machine1 = "blockEnergyTransformer";
+    }
 }
