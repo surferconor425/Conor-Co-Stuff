@@ -1,32 +1,22 @@
-## Mac Files
-.DS_Store
-
-## gradle
-.gradle
-build/
-
-## ForgeGradle
-run
-
-## eclipse
-eclipse
+# eclipse
+bin
+*.launch
 .settings
 .metadata
 .classpath
 .project
-bin
 
-## intellij
+# idea
 out
-.idea
-*.iml
 *.ipr
 *.iws
-atlassian-ide-plugin.xml
-
-## Others
-*.exe.stackdump
-mcp
-gradle.properties
 *.iml
-*.ipr
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
