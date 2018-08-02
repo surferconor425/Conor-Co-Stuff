@@ -1,0 +1,21 @@
+[
+{
+  "modid": "conorco",
+  "name": "Conorco Stuff",
+  "description": "Random crap for Conorco on the Silvania: Ultimatum server.",
+  "version": "2.0.0",
+  "mcversion": "1.12",
+  "url": "https://www.conor425.co/",
+  "updateUrl": "",
+  "authorList": [
+    "surferconor425"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
